@@ -14,6 +14,7 @@
 |---|---|
 | [`data/`](data/) | ブレストアイデアのデータセット（12テーマ・450件） |
 | [`skill/nagasaki-brainstorm-ideas/`](skill/nagasaki-brainstorm-ideas/) | データをヒントに生成AIが一緒にブレストするスキル |
+| [`contribute/`](contribute/) | ワークショップのアイデアを投稿するためのガイドとテンプレート |
 
 ## データを使う
 
@@ -58,6 +59,15 @@ python3 skill/nagasaki-brainstorm-ideas/scripts/pick_ideas.py "商店街を盛�
 python3 skill/nagasaki-brainstorm-ideas/scripts/pick_ideas.py --list-themes
 ```
 
+## アイデアを投稿する
+
+ワークショップやブレストを主催した方は、参加者が出したアイデアを投稿できます。用意するのは「テーマ」と「アイデア」の一覧だけです。カテゴリ分けなどの仕上げは、メンテナーが行います。
+
+- 投稿できるのは、ワークショップで**人間が出したアイデア**だけです（AIで生成した案は対象外）。
+- アイデアの良し悪しで選ぶことはありません。
+
+詳しくは [投稿ガイド](contribute/README.md) をご覧ください。
+
 ## 出力例（「商店街を盛り上げたい」）
 
 > **乗っかり**
@@ -80,4 +90,4 @@ python3 skill/nagasaki-brainstorm-ideas/scripts/pick_ideas.py --list-themes
 
 ## 謝辞
 
-データの公開に同意いただいた、ながさきキャンバスの主催者および、ブレストに参加したみなさまに感謝します。
+データの公開に同意いただいた、ながさきキャンバスの主催者のみなさま、ブレストに参加したみなさまに感謝します。
